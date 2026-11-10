@@ -58,7 +58,7 @@ O caminho será este:
 9. Enviar a branch `main`.
 10. Alterar o README, criar outro commit e fazer um novo `push`.
 
-O roteiro completo está em [pratica/passo-a-passo.md](pratica/passo-a-passo.md). Se algum comando não funcionar como esperado, consulte [pratica/erros-comuns.md](pratica/erros-comuns.md).
+Essa é a mesma sequência que será executada durante a aula. Os comandos principais também estão resumidos abaixo.
 
 ## <img src="assets/icons/command.svg" width="22" alt=""> Comandos que vamos usar
 
@@ -101,11 +101,6 @@ O `commit` registra a alteração no repositório local. O `push` envia os commi
 
 | Material | Link |
 | :-- | :-- |
-| Passo a passo da prática | [pratica/passo-a-passo.md](pratica/passo-a-passo.md) |
-| Soluções para erros comuns | [pratica/erros-comuns.md](pratica/erros-comuns.md) |
-| Exemplo de README de perfil | [perfil/README.md](perfil/README.md) |
-| Como personalizar o perfil | [perfil/como-personalizar.md](perfil/como-personalizar.md) |
-| Desafios para depois do minicurso | [desafios/depois-do-minicurso.md](desafios/depois-do-minicurso.md) |
 | Sugestões de projetos simples | [projetos/ideias-para-praticar.md](projetos/ideias-para-praticar.md) |
 | Links e referências | [referencias/materiais-de-estudo.md](referencias/materiais-de-estudo.md) |
 | Diagrama sobre Git e GitHub | [Git e Github.excalidraw](Git%20e%20Github.excalidraw) |
