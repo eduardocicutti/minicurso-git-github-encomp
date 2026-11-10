@@ -1,181 +1,143 @@
 <div align="center">
 
-<img width="100%" alt="Banner do Minicurso Git e GitHub: ENCOMP" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:8250DF&height=230&section=header&text=Git%20%26%20GitHub&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=Minicurso%20ENCOMP%20%7C%20Do%20primeiro%20commit%20ao%20GitHub&descAlignY=59&descSize=18&animation=fadeIn" />
+<img src="assets/logos/encomp.png" width="430" alt="ENCOMP">
 
-# 🚀 Minicurso de Git e GitHub
+# Minicurso de Git e GitHub
 
-**Aprenda a versionar projetos, trabalhar com branches e publicar seu código no GitHub.**
+Material usado no minicurso da **ENCOMP 2026**, desde os conceitos básicos de versionamento até a publicação de um repositório no GitHub.
 
-[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://www.kernel.org/)
-[![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](https://www.markdownguide.org/)
-
-[**📚 Conteúdo**](#-conteúdo-do-minicurso) · [**💻 Prática**](#-comece-a-praticar) · [**⌨️ Comandos**](#-comandos-essenciais) · [**🔗 Materiais**](#-materiais-e-referências)
+[Conteúdo](#conteúdo-do-minicurso) · [Prática](#prática-guiada) · [Comandos](#comandos-que-vamos-usar) · [Material extra](#material-extra)
 
 </div>
 
 ---
 
-## 💡 Sobre o minicurso
+## <img src="assets/icons/info-circle.svg" width="22" alt=""> Sobre o minicurso
 
-Este repositório reúne materiais e exercícios de apoio ao **minicurso de Git e GitHub da ENCOMP**. A proposta é apresentar os conceitos essenciais de controle de versão e guiar quem está começando desde a criação de um repositório local até a publicação de alterações no GitHub.
+Este repositório reúne os slides, os arquivos usados durante a aula e alguns materiais para continuar estudando depois do minicurso.
 
-> **Não precisa dominar Git antes de começar!** Aqui, o foco é entender os conceitos e praticar os comandos passo a passo.
+A ideia é entender o que o Git registra, como um repositório funciona e qual é o papel do GitHub nesse processo. Depois da explicação, vamos criar um repositório, fazer commits e enviar o projeto para uma conta do GitHub.
 
-### 🎯 O que você vai aprender?
+Os comandos da prática foram preparados para o terminal **Bash**, no **Fedora** ou no **Linux Mint**. Git e VS Code já devem estar instalados.
 
-- Entender a diferença entre **Git** e **GitHub**.
-- Reconhecer **repositórios, commits, branches** e os estados de arquivos no Git.
-- Criar e configurar um repositório local.
-- Preparar alterações, registrar commits e consultar o histórico.
-- Conectar um projeto a um repositório remoto e enviar arquivos.
-- Entender o fluxo básico de **branch**, **merge**, **clone**, **pull** e **pull request**.
+## <img src="assets/icons/target-arrow.svg" width="22" alt=""> O que vamos aprender
 
-## 🧭 Conteúdo do minicurso
+- O que é controle de versão e por que ele é usado em projetos de software.
+- A diferença entre Git e GitHub.
+- O que são repositórios locais e remotos.
+- Como o Git acompanha as alterações feitas nos arquivos.
+- Como usar `git init`, `git status`, `git add` e `git commit`.
+- O que são branches e como um merge integra alterações.
+- Como criar um repositório no GitHub e enviar os commits com `git push`.
+- O que significam clone, pull request, issue, fork e GitHub Actions.
 
-| Etapa | Conteúdo | Objetivo |
-| :-- | :-- | :-- |
-| **01 · Fundamentos** | Git, GitHub, versionamento e repositórios | Entender por que e como versionar |
-| **02 · Demonstração** | `init`, `add`, `commit`, `status`, `log`, branches e merge | Acompanhar o fluxo de trabalho |
-| **03 · Kahoot** | Perguntas de revisão | Fixar o conteúdo de forma interativa |
-| **04 · Prática guiada** | README, repositório remoto, `push` e GitHub | Publicar um projeto |
-| **05 · Encerramento** | Revisão e próximos passos | Continuar praticando |
+## <img src="assets/icons/map.svg" width="22" alt=""> Conteúdo do minicurso
 
-<details>
-<summary><strong>📂 Explorar a estrutura do repositório</strong></summary>
+| Etapa | O que vamos fazer |
+| :-- | :-- |
+| **Fundamentos** | Conversar sobre versionamento, Git, GitHub, repositórios, commits, branches e merge. |
+| **Demonstração** | Criar um repositório e acompanhar o caminho de uma alteração até o commit. |
+| **Kahoot** | Revisar os conceitos com perguntas rápidas. |
+| **Prática guiada** | Criar um README, publicar um repositório no GitHub e fazer uma segunda atualização. |
+| **Encerramento** | Rever os erros mais comuns e indicar caminhos para continuar praticando. |
+
+## <img src="assets/icons/terminal-2.svg" width="22" alt=""> Prática guiada
+
+Durante a prática, cada pessoa vai criar um pequeno projeto com um `README.md`. A conta será conectada pelo VS Code e os comandos serão executados no terminal Bash.
+
+O caminho será este:
+
+1. Abrir uma pasta no VS Code.
+2. Criar ou copiar o `README.md` usado na aula.
+3. Iniciar o repositório Git local.
+4. Conferir os arquivos modificados.
+5. Preparar e registrar o primeiro commit.
+6. Criar um repositório vazio no GitHub.
+7. Conectar o repositório local ao remoto.
+8. Entrar no GitHub pelo VS Code quando a autenticação for solicitada.
+9. Enviar a branch `main`.
+10. Alterar o README, criar outro commit e fazer um novo `push`.
+
+O roteiro completo está em [pratica/passo-a-passo.md](pratica/passo-a-passo.md). Se algum comando não funcionar como esperado, consulte [pratica/erros-comuns.md](pratica/erros-comuns.md).
+
+## <img src="assets/icons/command.svg" width="22" alt=""> Comandos que vamos usar
+
+| Comando | O que ele faz |
+| :-- | :-- |
+| `git --version` | Mostra a versão do Git instalada. |
+| `git config --global user.name "Seu Nome"` | Define o nome usado nos commits. |
+| `git config --global user.email "seu-email@exemplo.com"` | Define o e-mail usado nos commits. |
+| `git init -b main` | Inicia um repositório e cria a branch principal com o nome `main`. |
+| `git status` | Mostra a situação atual dos arquivos. |
+| `git add README.md` | Coloca o README na área de preparação. |
+| `git commit -m "Adiciona README inicial"` | Registra uma versão local do projeto. |
+| `git log --oneline` | Mostra o histórico resumido, com um commit por linha. |
+| `git branch` | Lista as branches locais. |
+| `git switch -c nova-branch` | Cria uma branch e muda para ela. |
+| `git switch main` | Volta para a branch principal. |
+| `git merge nova-branch` | Integra a branch indicada à branch atual. |
+| `git remote add origin URL` | Liga o repositório local a um repositório remoto. |
+| `git remote -v` | Mostra os endereços remotos configurados. |
+| `git push -u origin main` | Envia a `main` e registra o destino dos próximos pushes. |
+| `git clone URL` | Baixa uma cópia de um repositório remoto. |
+| `git pull` | Busca alterações do remoto e tenta integrá-las à branch atual. |
+
+As opções que aparecem nos comandos também têm uma função:
+
+- `-b` define o nome da branch criada por `git init`.
+- `--global` aplica a configuração ao usuário do computador.
+- `-m` permite escrever a mensagem do commit no próprio comando.
+- `--oneline` resume cada commit em uma linha.
+- `-c` significa *create*: cria a nova branch antes de mudar para ela.
+- `-u` registra a relação entre a branch local e a branch remota.
 
 ```text
-minicurso-git-github-encomp/
-├── README.md
-├── Git e Github.excalidraw
-├── Merge e Branches.excalidraw
-├── pratica/
-│   ├── passo-a-passo.md
-│   └── erros-comuns.md
-├── perfil/
-│   ├── README.md
-│   └── como-personalizar.md
-├── desafios/
-│   └── depois-do-minicurso.md
-├── projetos/
-│   └── ideias-para-praticar.md
-└── referencias/
-    └── materiais-de-estudo.md
+editar arquivos → git status → git add → git commit → git push
 ```
 
-*Alguns arquivos de apoio ainda estão em preparação.*
+O `commit` registra a alteração no repositório local. O `push` envia os commits para o repositório remoto no GitHub.
 
-</details>
+## <img src="assets/icons/folder.svg" width="22" alt=""> Arquivos deste repositório
 
-## 💻 Comece a praticar
-
-Os exemplos abaixo funcionam no **terminal Bash do Fedora** e em outras distribuições Linux com Git instalado.
-
-### 1. Verifique se o Git está instalado
-
-```bash
-git --version
-```
-
-Caso não esteja instalado no Fedora:
-
-```bash
-sudo dnf install git -y
-```
-
-### 2. Configure sua identidade no Git
-
-```bash
-git config --global user.name "Seu Nome"
-git config --global user.email "seu-email@example.com"
-```
-
-> Use preferencialmente um e-mail associado à sua conta GitHub ou seu endereço `noreply` disponibilizado pelo GitHub.
-
-### 3. Crie seu primeiro repositório local
-
-```bash
-mkdir meu-primeiro-repositorio
-cd meu-primeiro-repositorio
-git init -b main
-printf '# Meu primeiro repositório\n' > README.md
-git status
-git add README.md
-git commit -m "docs: adiciona README inicial"
-```
-
-### 4. Publique no GitHub
-
-Crie no GitHub um **repositório remoto vazio** (sem adicionar README, licença ou `.gitignore` nessa etapa). Depois, substitua `<SEU_USUARIO>` e `<NOME_DO_REPO>`:
-
-```bash
-git remote add origin https://github.com/SEU_USUARIO/NOME_DO_REPO.git
-git push -u origin main
-```
-
-**Atenção:** estar logado no site do GitHub não autentica automaticamente o terminal. Configure a autenticação por um método compatível (por exemplo, um gerenciador de credenciais ou GitHub CLI) antes do `push`.
-
-## ⌨️ Comandos essenciais
-
-| Comando | Para que serve |
+| Material | Link |
 | :-- | :-- |
-| `git init` | Inicia um repositório Git local |
-| `git status` | Mostra o estado dos arquivos |
-| `git add .` | Adiciona alterações à área de preparação (*staging*) |
-| `git commit -m "mensagem"` | Registra um commit |
-| `git log --oneline` | Exibe um histórico resumido |
-| `git branch` | Lista as branches locais |
-| `git switch -c nova-branch` | Cria e acessa uma nova branch |
-| `git switch main` | Volta para a branch principal |
-| `git merge nova-branch` | Integra a branch indicada à branch atual |
-| `git remote -v` | Mostra os remotos configurados |
-| `git push -u origin main` | Envia a branch `main` e configura o upstream |
-| `git clone URL` | Clona um repositório remoto |
-| `git pull` | Obtém e integra alterações do remoto |
-| `git fetch` | Obtém informações do remoto sem integrá-las automaticamente |
+| Passo a passo da prática | [pratica/passo-a-passo.md](pratica/passo-a-passo.md) |
+| Soluções para erros comuns | [pratica/erros-comuns.md](pratica/erros-comuns.md) |
+| Exemplo de README de perfil | [perfil/README.md](perfil/README.md) |
+| Como personalizar o perfil | [perfil/como-personalizar.md](perfil/como-personalizar.md) |
+| Desafios para depois do minicurso | [desafios/depois-do-minicurso.md](desafios/depois-do-minicurso.md) |
+| Sugestões de projetos simples | [projetos/ideias-para-praticar.md](projetos/ideias-para-praticar.md) |
+| Links e referências | [referencias/materiais-de-estudo.md](referencias/materiais-de-estudo.md) |
+| Diagrama sobre Git e GitHub | [Git e Github.excalidraw](Git%20e%20Github.excalidraw) |
+| Diagrama sobre branches e merge | [Merge e Branches.excalidraw](Merge%20e%20Branches.excalidraw) |
 
-### 🌿 Fluxo básico de versionamento
+Os slides apresentados no minicurso serão disponibilizados na pasta [`slides`](slides/).
 
-```text
-Editar arquivos → git status → git add → git commit → git push
-```
-
-> `git add` prepara as alterações; `git commit` registra a versão **localmente**; `git push` envia os commits ao repositório **remoto**.
-
-## 🧩 Materiais e atividades
-
-| Recurso | Acesso |
-| :-- | :-- |
-| 📝 Passo a passo da prática | [pratica/passo-a-passo.md](pratica/passo-a-passo.md) |
-| 🛠️ Erros comuns | [pratica/erros-comuns.md](pratica/erros-comuns.md) |
-| 👤 README de perfil | [perfil/README.md](perfil/README.md) |
-| 🎨 Personalização de perfil | [perfil/como-personalizar.md](perfil/como-personalizar.md) |
-| 🎯 Desafios pós-minicurso | [desafios/depois-do-minicurso.md](desafios/depois-do-minicurso.md) |
-| 💭 Ideias para praticar | [projetos/ideias-para-praticar.md](projetos/ideias-para-praticar.md) |
-| 📖 Materiais de estudo | [referencias/materiais-de-estudo.md](referencias/materiais-de-estudo.md) |
-| 🖍️ Diagrama: Git e GitHub | [Git e Github.excalidraw](Git%20e%20Github.excalidraw) |
-| 🌿 Diagrama: Merge e Branches | [Merge e Branches.excalidraw](Merge%20e%20Branches.excalidraw) |
-
-## 🔗 Materiais e referências
+## <img src="assets/icons/books.svg" width="22" alt=""> Material extra
 
 - [Documentação oficial do Git](https://git-scm.com/doc)
-- [Livro Pro Git (gratuito)](https://git-scm.com/book/pt-br/v2)
-- [Documentação do GitHub](https://docs.github.com/pt)
-- [Guia de Markdown](https://www.markdownguide.org/basic-syntax/)
-- [Ferramentas para README](https://github.com/HenryLok0/awesome-github-readme-tools)
+- [Livro Pro Git em português](https://git-scm.com/book/pt-br/v2)
+- [Documentação do GitHub em português](https://docs.github.com/pt)
+- [Sintaxe básica de Markdown](https://www.markdownguide.org/basic-syntax/)
+- [Learn Git Branching](https://learngitbranching.js.org/?locale=pt_BR)
 
-## 👨‍🏫 Organização
+A lista comentada de referências, vídeos e ferramentas está em [referencias/materiais-de-estudo.md](referencias/materiais-de-estudo.md).
 
-**Minicurso:** Git e GitHub · ENCOMP  
-**Responsável pelo repositório:** [Eduardo Cicutti](https://github.com/eduardocicutti)
+## <img src="assets/icons/building-community.svg" width="22" alt=""> Organização
 
-Se este material te ajudou, considere deixar uma ⭐ no repositório!
+<table>
+  <tr>
+    <td width="150" align="center">
+      <a href="https://www.adapti.info/">
+        <img src="assets/logos/adapti.png" width="125" alt="Adapti Soluções Web">
+      </a>
+    </td>
+    <td>
+      <strong>Minicurso:</strong> Git e GitHub — ENCOMP 2026<br>
+      <strong>Responsável:</strong> <a href="https://github.com/eduardocicutti">Eduardo Cicutti</a><br><br>
+      A <a href="https://www.adapti.info/">Adapti Soluções Web</a> também faz parte da minha experiência com desenvolvimento e trabalho em projetos. É uma empresa júnior de Computação da UFES, em São Mateus, que desenvolve sites e sistemas web.
+    </td>
+  </tr>
+</table>
 
-<div align="center">
-
-<img width="100%" alt="Rodapé em formato de onda" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:8250DF&height=110&section=footer" />
-
-<sub>Feito para aprender, praticar e compartilhar conhecimento. 💙</sub>
-
-</div>
+Os ícones usados neste README são do projeto [Tabler Icons](https://tabler.io/icons), disponibilizado sob licença MIT.
