@@ -133,7 +133,7 @@ A lista comentada de referências, vídeos e ferramentas está em [referencias/m
       </a>
     </td>
     <td>
-      <strong>Minicurso:</strong> Git e GitHub — ENCOMP 2026<br>
+      <strong>Minicurso:</strong> Git e GitHub - ENCOMP 2026<br>
       <strong>Responsável:</strong> <a href="https://github.com/eduardocicutti">Eduardo Cicutti</a><br><br>
       A <a href="https://www.adapti.info/">Adapti Soluções Web</a> também faz parte da minha experiência com projetos e na área comercial. A empresa ficou responsável por disponibilizar membros para ministrar este minicurso, e foi por meio dela que me voluntariei para conduzir a aula.
     </td>
