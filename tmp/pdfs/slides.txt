@@ -1,0 +1,122 @@
+
+
+===== PAGINA 1 =====
+
+E N C O M P
+MINICURSO
+GIT e GITHUB
+M I N I C U R S O
+Aprendendo git e github na teoria eprática
+
+===== PAGINA 2 =====
+
+E N C O M P
+QUEM SOU EU?
+A P R E S E N T A Ç Ã O
+Assessor comercial;
+Experiência com projetos
+pessoais em automação,
+Python, Rust, e Scrapping;
+5° período/ciência da
+computação;
+2 0 2 6
+/ e d u a r d o c i c u t t i
+
+===== PAGINA 3 =====
+
+E N C O M P 2 0 2 6
+COMO SABER O QUE
+MUDOU EM UM PROJETO?
+0 3 / 2 0
+Cópias de arquivos deixam perguntas
+Qual versão funciona? 
+O que mudou?
+ Por que mudou? 
+Como recuperar uma versão
+anterior?
+Controle de versão registra estados
+Cria página;
+Corrige cadastro;
+Valida feature e integra no projeto
+sem problemas;
+
+===== PAGINA 4 =====
+
+E N C O M P
+GIT & GITHUB  
+                                         PRINCIPAIS COMANDOS
+0 6 / 2 0
+C O M A N D O F U N Ç Ã O
+git init Inicia um repositório
+git clone Copia um repositório
+git add Prepara alterações
+git commit Registra uma versão
+git status Verifica o estado dos arquivos
+git branch Gerencia branches
+git switch Troca de branch
+git merge Integra branches
+git pull Recebe e integra atualizações
+git push Envia commits ao remoto
+git fetch Busca atualizações sem integrar
+2 0 2 6
+
+===== PAGINA 5 =====
+
+E N C O M P 2 0 2 6
+0 7 / 2 0
+TERMOS ESSENCIAIS
+T E R M O S I G N I F I C A D O
+Repositório Projeto versionado pelo Git
+Commit Registro de uma versão
+Branch Linha de desenvolvimento
+Main Branch principal
+Merge Integração de branches
+T E R M O S I G N I F I C A D O
+Pull Request Proposta de integração de alterações
+Fork Cópia de um repositório no GitHub
+Clone Cópia local de um repositório
+Origin Nome convencional do remoto
+principal
+P A R Â M E T R O F U N Ç Ã O
+-m Mensagem do commit
+-c Criar e trocar de branch (switch)
+-d Excluir branch integrada
+-u Configurar upstream (push)
+
+===== PAGINA 6 =====
+
+E N C O M P 2 0 2 6
+Como ler um comando sem decorar a linha?
+git
+programa
+commit
+operação
+-m
+opção
+"mensagem"
+valor
+1 0 / 2 0
+
+===== PAGINA 7 =====
+
+E N C O M P 2 0 2 6
+KAHOOT
+1 0 / 2 0
+Façam duplas ou trios!
+Obs: Utilizem as anotações de vocês como consulta
+
+===== PAGINA 8 =====
+
+E N C O M P 2 0 2 6
+HORA DA PRÁTICA!
+1 1 / 2 0
+
+===== PAGINA 9 =====
+
+1 2 / 2 0
+ 2 0 2 6
+Dúvidas ou
+sugestões de
+melhoria?
+Obrigado pela participação!
+E N C O M P

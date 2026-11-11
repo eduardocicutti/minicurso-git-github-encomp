@@ -101,6 +101,7 @@ O `commit` registra a alteração no repositório local. O `push` envia os commi
 
 | Material | Link |
 | :-- | :-- |
+| Fundamentação prática de Git, GitHub e Bash | [fundamentacao-pratica.md](fundamentacao-pratica.md) |
 | Sugestões de projetos simples | [projetos/ideias-para-praticar.md](projetos/ideias-para-praticar.md) |
 | Links e referências | [referencias/materiais-de-estudo.md](referencias/materiais-de-estudo.md) |
 | Diagrama sobre Git e GitHub | [Git e Github.excalidraw](Git%20e%20Github.excalidraw) |
